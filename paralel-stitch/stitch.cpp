@@ -46,10 +46,8 @@ int main(int argc, char* argv[]) {
 
 	Stitcher stitcher = Stitcher::createDefault(1);
 
-
 	unsigned long AAtime = 0, BBtime = 0;
 	AAtime = getTickCount();
-
 
 	stitcher.stitch(vImg, rImg);
 
