@@ -40,7 +40,6 @@ int main(int argc, char* argv[]) {
 	vImg.push_back(imread("./stitching_img/m5.jpg"));
 	vImg.push_back(imread("./stitching_img/m6.jpg"));
 
-
 	int c = gpu::getCudaEnabledDeviceCount();
 	printf("Gpu Device %d\n", c);
 
