@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
 
 	// Get the name of the processor
 	char processor_name[MPI_MAX_PROCESSOR_NAME];
-  int name_len;
+	int name_len;
 	MPI_Get_processor_name(processor_name, &name_len);
 
 	// Print off a hello world message
