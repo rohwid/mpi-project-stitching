@@ -1,4 +1,4 @@
-CC = mpicc
+CC = mpic++
 CFLAGS = `pkg-config opencv --cflags --libs`
 TARGET = stitch
 
